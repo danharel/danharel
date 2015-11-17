@@ -273,7 +273,7 @@ header {
     background-size: auto;
     -o-background-size: auto;
     clear: both;
-    margin-top: -5.5%; 
+    /*margin-top: -5.5%; */
 }
 
 header .intro-text {
@@ -928,4 +928,5 @@ span.hiddentext:hover, span.hiddentext:focus {
 
 body {
     webkit-tap-highlight-color: #fed136;
+    height: 100%;
 }
