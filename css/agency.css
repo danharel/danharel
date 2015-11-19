@@ -64,6 +64,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -176,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif,cursive;
-    color: #ffffff;
+    color: #3fc8f8;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -209,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #3fc8f8;
 }
 
 .navbar-default .nav li a:hover,
@@ -253,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #ffffff;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -873,7 +877,7 @@ img::-moz-selection {
 }
 
 section h2 {
-    color: #ff3333;
+    color: #808080;
 }
 
 .about-me {
@@ -926,7 +930,16 @@ span.hiddentext:hover, span.hiddentext:focus {
     background-color: #ff9999;
 }
 
+#projects {
+     background: linear-gradient(#80dfff, #fff);
+}
+
 body {
     webkit-tap-highlight-color: #fed136;
     height: 100%;
+    background: #3fc8f8
+}
+
+#about {
+    background: linear-gradient(#3fc8f8, #80dfff);
 }
