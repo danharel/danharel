@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #4ddbff;
 }
 
 a:hover,
@@ -175,8 +175,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif,cursive;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 }
 
@@ -343,7 +343,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 75px 0;
     }
 }
 
